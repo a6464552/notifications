@@ -4,5 +4,5 @@ import lombok.Data;
 
 @Data
 public class CountDTO {
-    private Integer count;
+    private Integer count; //количество оставшихся непрочитанных уведомлений
 }

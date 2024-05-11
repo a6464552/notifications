@@ -11,7 +11,7 @@ public class SendNotificationRequestDTO {
     private String channel;
     private String productId;
     private String subject;
-    private List<AttendeeNotificationDTO> to = new ArrayList<>();
+    private List<AttendeeNotificationDTO> to;
     private String type;
     private String content;
     private Integer storageTime;
